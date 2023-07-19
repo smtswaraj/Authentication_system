@@ -1,6 +1,7 @@
 from django.shortcuts import redirect, render
 from .models import Employees
 # Create your views here.
+
 def INDEX(request):
 
     emp = Employees.objects.all()
